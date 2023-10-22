@@ -34,7 +34,7 @@ function App() {
             <Route path="/update" element={update ? <UpdateProduct Update={update} /> : <UpdateProduct />} />
             <Route path="/cart/:productIds" element={<Cart />} />
             <Route path="/logout" element={<h1>Logout Component</h1>} />
-            <Route path="/profile" element={<h1>{/* {JSON.parse(auth).name}'s */} Mohammad Raaz Profile profile</h1>} />
+            <Route path="/profile" element={<h1>{/* {JSON.parse(auth).name}'s */} Mohammad Raaz</h1>} />
           </Route>
 
           <Route path="/signup" element={<SignUp />} />
